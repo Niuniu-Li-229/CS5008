@@ -44,20 +44,7 @@ void swap(int *a, int *b) {
 
 // function to perform bubble sort on an array
 void bubbleSort(int *arr, int size) {
-  for (int i=0; i < size; i++){
-    int swapped = 0; //flag to check if any swap were made
 
-    for (int j=0; j<size; j++){
-      if (arr[j] > arr[j+1]){
-        swap(&arr[j], &arr[j+1]);
-        swapped = 1;
-      }
-    }
-
-    if (!swapped) { // if no swaps were made, the array is already sorted
-      break;
-    }
-  }
   
 }
 
